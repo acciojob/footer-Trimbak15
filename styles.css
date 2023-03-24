@@ -40,7 +40,7 @@ a {
     padding: 20px 0;
 }
 
-.features {
+.link-boxes {
     color: #B6B6B6;
 }
 
@@ -53,7 +53,7 @@ li {
     ;
 }
 
-.features h3::before {
+.link-boxes h3::before {
     content: '';
     position: absolute;
     left: 0;
