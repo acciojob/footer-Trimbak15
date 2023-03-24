@@ -1,67 +1,107 @@
-/* your code here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-}
-
-.home {
-    display: flex;
-    justify-content: space-between;
-}
-
-.heading {
-    color: white;
-    font-size: 30px;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-.small-img {
-    width: 50px;
-    height: 40px;
-    border-radius: 45%;
-    margin-right: 20px;
-    margin-top: 20px;
-}
-
-.links {
-    margin-top: 50px;
-}
-
-h3 {
-    color: white;
-    text-decoration: underline;
-    padding: 20px;
-}
-
-p {
-    color: white;
-    padding: 20px;
-}
-
-.small-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.service {
-    margin-top: 50px;
-}
-
-.about {
-    margin-top: 50px;
-}
-
-.contact {
-    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
 }
 
 footer {
-    background-color: rgb(44, 48, 58);
-    color: white;
+    background-color: black;
+}
+
+.heading {
     display: flex;
     justify-content: space-between;
+}
+
+.Cname h1 {
+    color: white;
+    margin: 20px 30px;
+}
+
+.logo i {
+    color: white;
+    margin: 30px auto;
+    margin-right: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.features {
+    color: #B6B6B6;
+}
+
+h3 {
+    position: relative;
+}
+
+li {
+    margin-top: 20px;
+    ;
+}
+
+.features h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 30%;
+    height: 2px;
+    background-color: #B6B6B6;
+}
+
+.sub-footer {
+    background-color: #2C313B;
+    color: #B6B6B6;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.copyright {
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.privacy {
+    margin-right: 30px;
+    font-size: 12px;
+}
+
+.fa-facebook {
+    background-color: #4367B3;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.fa-twitter {
+    background-color: #1DA0F3;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.fa-instagram {
+    background-color: #E0316C;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.fa-linkedin {
+    background-color: #0177B4;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.fa-youtube {
+    background-color: #FE0100;
+    padding: 10px;
+    border-radius: 50px;
 }
